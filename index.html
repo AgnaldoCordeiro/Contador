@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contador</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>
+      <span style="--i:1">C</span>
+      <span style="--i:2">o</span>
+      <span style="--i:3">n</span>
+      <span style="--i:4">t</span>
+      <span style="--i:5">a</span>
+      <span style="--i:6">d</span>
+      <span style="--i:7">o</span>
+      <span style="--i:8">r</span>
+    </h1>
+    <div class="items">
+      <button class="btn" id="btnStatusNegativo" onclick="decrement()">-</button>
+      <span id="number">0</span>
+      <button class="btn" id="btnStatusPositivo" onclick="increment()">+</button>
+    </div>
+    <div class="container-text">
+      <span id="text" class="positivo">|</span>
+    </div>
+
+
+  </section>
+
+
+  <script src="/assets/js/contador.js"></script>
+</body>
+
+</html>
